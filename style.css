@@ -1,0 +1,103 @@
+*{ 
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+:root{
+    --bg-color:#2a2a2a;
+    --second-bg-color: #202020;
+    --text-color: #fff;
+    --second-color: #ccc;
+    --main-color: #ff4d05;
+    --big-font: 5rem;
+    --h2-font: 3rem;
+    --p-font: 1.0rem;
+}
+body {
+
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 22px 15%;
+    border-bottom: 1px solid transparent;
+    transition: all .45s ease;
+
+
+
+
+}
+.logo{
+    color: var(--text-color);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+span{
+    color:red;
+
+
+   
+}
+.navlist{
+    display:flex;
+   
+}
+.navlist a{
+    color: var(--second-color);
+    font-size: 17px;
+    font-weight: 500;
+    margin:0 25px;
+    transition: all .45s ease;
+}
+#menu-icon{
+    font-size: 35px;
+    color:var(--text-color);
+    z-index: 10001;
+    cursor: pointer;
+    margin-left:25px;
+    display:none;
+}
+
+section{
+    padding: 160px 15% 120px;
+}
+.home{
+    position:relative;
+    height:100vh;
+    width:100%;
+    background-image:url("https://i.pinimg.com/originals/39/fe/67/39fe67268cffbd80715e46fc4c980968.gif");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start; /* remove to put menu higher left hand screen*/
+}
+.slide{
+    margin-bottom: 20px
+}
+.one{
+    display:inline-block;
+    margin-right:15px;
+    height:32px;
+    padding: 0 15px;
+}
+h1,h2,h3{
+    color:red;
+}
+p{
+    color:black;
+}
