@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{
+--clr-text:#dfd7d7;
+--clr-primary:#46b9b4;
+--clr-accent:#764981;
+
+
+}
+
+*,
+*::before,
+::after{
+    box-sizing: inherit;
+    color:var(--clr-text)
+}
+img{
+    display:block;
+    max-width:100%;
+    margin:auto;
+}
+h1,
+h2,
+h3,
+h4{
+    margin:0;
+    padding:2rem 1rem;
+}
+h2{
+    font-size:1.5rem;
+}
+p{
+    margin-bottom:1em;
+    text-align: center;
+    font-size:2rem;
+}
+.logo{
+    font-family:var(--ff-logo);
+    text-align: center;
+ 
+}
+.logo a{
+    text-decoration: none;
+    color:white;
+}
+
+html{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size:1rem;
+}
+body{
+    margin:0;
+    background: #03191E;
+    color:white;
+}
+
+section{
+    padding:3em 1;
+    text-align: center;
+}
+.section-title {
+    text-align: center;
+   
+
+}
+.section-title-projects{
+    color: var(--clr-primary);
+}
+header {
+    padding: 1em 0 2em;
+ 
+  }
+  
+/* NAVIGATION */
+
+nav ul{
+    display:flex;
+    list-style: none;
+    margin:0;
+    padding:0;
+    justify-content: space-around;
+    box-shadow: 20px 20px 20px 20px rgba(70, 185, 180, 0.5); /* Cool blue shadow under my 4 button at the top header nav*/
+    outline:#46b9b4
+}
+nav a{
+    display:inline-block;
+    padding:0.5em;
+    color: var(--clr-primary);
+    text-decoration: none;
+
+}
+nav a:hover,
+nav a:hover{
+    color: var(--clr-accent);
+    text-decoration:underline ;
+}
+/* HOMEPAGE STYLES */
+.hero {
+    background-color: #fff;
+    background-size: cover;
+    background-image: url(https://rare-gallery.com/uploads/posts/4599183-fantasy-art-rivendell-the-lord-of-the-rings.jpg);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    text-align: center;
+    background-position: center;
+    padding: 15vh 0;
+    position: relative; /* Add this line */
+}
+
+
+.intro{
+    text-align: center;
+}
+
+.text-primary{
+    color:var(--clr-primary)
+}
+.hero .section-title{
+    color:black;
+    font-weight:700
+}
+.btn-group {
+    padding: 2rem 2rem;
+
+}
+.btn-group a{
+    background: #46b9b4;
+    text-decoration: none;
+    padding:0.5em 0.5em;
+    margin:2rem;
+    text-align: center;
+    border-radius: 20px;
+
+}
+@media screen and (min-width:920px){
+    .hero {
+    
+
+        background-image: url(https://rare-gallery.com/uploads/posts/4599183-fantasy-art-rivendell-the-lord-of-the-rings.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+}
