@@ -4,6 +4,7 @@
 --clr-text:#dfd7d7;
 --clr-primary:#46b9b4;
 --clr-accent:#764981;
+--clr-body-background:#03191E;
 
 
 }
@@ -51,7 +52,7 @@ html{
 }
 body{
     margin:0;
-    background: #03191E;
+    background: #90c7d3;
     color:white;
 }
 
