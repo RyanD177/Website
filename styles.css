@@ -52,7 +52,7 @@ html{
 }
 body{
     margin:0;
-    background: #90c7d3;
+    background:var(--clr-body-background);
     color:white;
 }
 
@@ -61,11 +61,12 @@ section{
 }
 .section-title {
     text-align: center;
-   
+    font-size:2rem;
 
 }
 .section-title-projects{
     color: var(--clr-primary);
+    font-size:3rem;
 }
 header {
     padding: 1em 0 2em;
@@ -97,15 +98,10 @@ nav a:hover{
 }
 /* HOMEPAGE STYLES */
 .hero {
-    background-color: #fff;
+    height:50vh;
     background-size: cover;
-    background-image: url(https://rare-gallery.com/uploads/posts/4599183-fantasy-art-rivendell-the-lord-of-the-rings.jpg);
-    background-blend-mode: multiply;
-    background-attachment: fixed;
-    text-align: center;
     background-position: center;
-    padding: 30vh 0;
-    position: relative; /* Add this line */
+    background-image: url(https://rare-gallery.com/uploads/posts/4599183-fantasy-art-rivendell-the-lord-of-the-rings.jpg);
 }
 
 
@@ -125,11 +121,16 @@ nav a:hover{
 
 }
 .btn-group a{
+    color: black;
+    font-size:1.5em;
+    font-weight: 500;
+    font-family: inherit;
     background: #46b9b4;
     text-decoration: none;
-    padding:0.5em 0.5em;
-    margin:2rem;
+    padding: 1em 1em 1em 1em;
     text-align: center;
-    border-radius: 20px;
+    border-radius:30px;
+
 
 }
+
